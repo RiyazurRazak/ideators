@@ -1,0 +1,29 @@
+.img_container{
+    position: relative;
+  }
+  .g_img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .g1_img{
+    height: 400px;
+  }
+  .g2_img{
+    height: 200px;
+  }
+  .g3_img{
+    height: 180px;
+    margin-top: 10px;
+  }
+  .textBlock{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    padding: 0 10px;
+    overflow-wrap: break-word;
+    cursor: pointer;
+  }

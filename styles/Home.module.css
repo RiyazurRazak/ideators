@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.heading{
+  color: #ffffff;
+  font-family: 'Press Start 2P', cursive;
+  margin: 50px 0;
+  line-height: 2rem;
+}
+.gd_container{
+  margin-top: 40px !important;
+  background: #353535;
+}
+.bg_img{
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.gd_heading{
+  text-align: left;
+  font-family: 'Kaushan Script', cursive;
+  color: aquamarine;
+  padding: 20px;
+}
+.spn_inv{
+  color: salmon;
+}
+.spn_id{
+  color: #f0b05b;
+}
+.gd_content{
+ padding: 20px;
+}
+.video_container{
+  text-align: center;
+  margin: 40px auto;
+  background-color: #3D3A35;
+  padding: 20px;
+  pointer-events: none;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.video_container video{
+  margin: auto;
+}
+

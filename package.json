@@ -1,0 +1,50 @@
+{
+  "name": "ideators",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@tinymce/tinymce-react": "^3.9.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "cloudinary": "^1.24.0",
+    "cookie": "^0.4.1",
+    "html-react-parser": "^1.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.11.14",
+    "next": "10.0.6",
+    "next-redux-wrapper": "^6.0.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-player": "^2.8.2",
+    "react-redux": "^7.2.2",
+    "react-stickynode": "^3.0.4",
+    "react-visibility-sensor": "^5.1.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "babel-jest": "^26.6.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "node-mocks-http": "^1.10.1"
+  }
+}

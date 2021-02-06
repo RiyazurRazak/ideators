@@ -1,0 +1,26 @@
+.title{
+    color: #ffffff;
+}
+.image{
+    width: 70%;
+    height: 200px;
+}
+.like_container{
+    margin: 30px 0;
+}
+.likeIco{
+    color: red !important;
+}
+.desc{
+    color: #ffffffc0;
+    width: 90%;
+}
+.protected_container{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.lock_img{
+    width: 150px;
+    height: 150px;
+    pointer-events: none;
+}

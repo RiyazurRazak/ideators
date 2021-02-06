@@ -1,0 +1,18 @@
+.root{
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 20px;
+    background: #121212;
+    box-shadow: inset 5px 5px 9px #070707, inset -5px -5px 9px #1d1d1d;
+    padding: 35px;
+    width: fit-content;
+}
+.input{
+    color: #ffffff !important;
+    padding: 10px;
+    background-color: #000000a6;
+    border-radius: 10px;
+}
+.ico{
+    margin: 0 10px;
+}
